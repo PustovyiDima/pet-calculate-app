@@ -8,3 +8,11 @@
    overflow: hidden;
    min-height: 400px;
 }
+
+.grid {
+   display: grid;
+   gap: 10px;
+}
+
+.main--links {
+}

@@ -10,3 +10,20 @@ section {
    max-height: 800px;
    margin: auto;
 }
+
+* {
+   scrollbar-width: thin;
+   scrollbar-color: hsl(208, 83%, 72%) blue;
+}
+
+*::-webkit-scrollbar {
+   width: 12px;
+}
+*::-webkit-scrollbar-track {
+   background: hsl(208, 83%, 72%);
+}
+*::-webkit-scrollbar-thumb {
+   background-color: blue; /* колір скролбару */
+   border-radius: 20px; /* заокруглення скролбару */
+   border: 3px solid hsl(208, 83%, 72%); /* додає паддінги навколу скролу */
+}
